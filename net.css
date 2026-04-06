@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 50%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.74)), url(movies.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+:root {
+  --btn: #121212;
+  --btn2: #c11119;
+  --name: #e50914;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: large;
+  padding-left: 120px;
+  color: var(--name);
+}
+.naa {
+  border: none;
+}
+
+.lan > .sub {
+  padding: 8px 15px;
+  background: transparent;
+  border: 1px solid rgb(248, 245, 245);
+  background: var(--btn);
+  border-radius: 3px;
+}
+select {
+  background: var(--btn);
+  color: white;
+}
+.lan2 {
+  background: var(--btn2);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 9px 15px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.lan2 {
+  cursor: pointer;
+}
+
+.head {
+  margin: 0;
+  padding: 60px 0 0 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  justify-content: center;
+  /* background: #d6a7a7; */
+  gap: 20px;
+}
+
+.cut {
+  margin: 0;
+  padding: 0;
+  font-size: large;
+  font-weight: bold;
+}
+.para {
+  /* font-weight: 200; */
+  font-size: medium;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+}
+input {
+  position: absolute;
+  left: 30%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 15px;
+  font-weight: bold;
+  background: #121212;
+  /* filter: blur(); */
+}
+.btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 59%;
+  bottom: 25%;
+}
+
+.btn > button {
+  padding: 13px 30px;
+  background: var(--name);
+  border: none;
+  border-radius: 4px;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+}
+.btn{
+  cursor: pointer;
+}
+
+.fun h1 {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #b411d1; */
+  font-size: xx-large;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+/* .fun > .box{
+  height: 100vh;
+  width: 100vw;
+  background: #36d8a0;
+  border-radius: 10%;
+  margin-top: 4.5rem;
+} */
